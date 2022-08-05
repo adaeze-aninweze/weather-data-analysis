@@ -9,7 +9,7 @@ Created on Fri Aug  5 10:54:53 2022
 import pandas as pd
 import numpy as np
 
-df = pd.read_excel(r'/Users/adaezeaninweze/Documents/weather_data/30-years-Würzburg.xlsx', 'Sheet1', engine='openpyxl')
+df = pd.read_excel(r'/Users/adaezeaninweze/Documents/weather-analysis/30-years-Würzburg.xlsx', 'Sheet1', engine='openpyxl')
 df1 = df.copy()
 df1['Measuring_Date'] = df1['Measuring Date'].astype(str)
 df1['Date_adj'] = df1['Measuring_Date'] 
